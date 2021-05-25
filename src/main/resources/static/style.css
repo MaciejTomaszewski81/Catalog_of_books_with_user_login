@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+}
+.container {
+    background-color: whitesmoke ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    min-height: 100%;
+    position: relative;
+}
+.footerstyle{
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    padding: 10%;
+    text-align: center;
+}
+.headerstyle{
+    padding: 0.5rem;
+    background: whitesmoke;
+    text-align: center;
+    height: 10rem;
+}
+.layout {
+    padding: 100px 0;
+    text-align: center;
+}
+.top {
+    max-width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    color: white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px;
+}
+.margin{
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.btn-outline-success{
+    margin: 10px;
+}
+.table {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.form-check form-switch{
+  position: center;
+}
+.details {
+    margin: auto;
+    padding-top: 20px;
+}
+.deletebtn {
+    text-align: right;
+}
