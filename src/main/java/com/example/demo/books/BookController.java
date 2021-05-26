@@ -18,7 +18,7 @@ public class BookController {
         this.catalogService = bookCatalogService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home() {
         return "home";
     }

@@ -23,3 +23,17 @@ INSERT INTO book_authors(books_id, authors_id)VALUES
 (8,1),
 (9,2),
 (10,2);
+
+INSERT INTO user ( email, password) VALUES
+('admin@byom.de','{noop}123'),
+('ziltoid@byom.de','{noop}321'),
+('wilqu@byom.de','{noop}321'),
+('entombed@byom.de','{noop}321');
+
+INSERT INTO user_role(user_id, role) VALUES
+(1,'ROLE_ADMIN'),
+(1,'ROLE_USER'),
+(2,'ROLE_USER'),
+(3,'ROLE_USER'),
+(4,'ROLE_USER'),
+(4,'ROLE_ADMIN');

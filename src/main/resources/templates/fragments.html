@@ -12,10 +12,21 @@
     <h1>Katalog książek</h1>
     <br/>
 </div>
+<div th:fragment="page-admin" class="headerButtons">
+    <a type="button" href="/admin" class="btn btn-outline-danger"> Panel Admina </a>
+</div>
+<div th:fragment="page">
+    <div sec:authorize="hasRole('ROLE_ADMIN')">
+        <div th:replace="fragments :: page-admin"></div>
+    </div>
+</div>
 
 
 <div class="container" th:fragment="footer">
-    <h4>Aplikacja ver. 0.1</h4>
+    <div sec:authorize="hasRole('ADMIN')">
+        <a type="button" href="/admin" class="btn btn-outline-danger"> Panel Admina </a>
+    </div>
+    <h4>Aplikacja ver. 0.2</h4>
 </div>
 </body>
 </html>
